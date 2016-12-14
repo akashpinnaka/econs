@@ -1,0 +1,149 @@
+*
+  margin: 0
+  padding: 0
+  outline: 0
+  box-sizing: border-box
+  font-family: lato
+
+body, html
+  height: 100%
+
+.body-wrapper
+  min-height: 100%
+  position: relative
+  padding-bottom: 50px
+
+.main-content
+  position: relative
+  .mask
+    display: none
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    z-index: 9
+    background-color: rgba(73, 84, 97, 0.6)
+
+footer.footer
+  position: absolute
+  bottom: 0
+  left: 0
+  width: 100%
+  height: 50px
+  background-color: #999
+
+a
+  text-decoration: none
+
+.skinny-wrapper
+  width: 90%
+  margin: 0 auto
+
+.center
+  text-align: center
+
+.float-left
+  float: left
+
+.float-right
+  float: right
+
+.cf:before, .cf:after
+  content: ""
+  display: table
+
+.cf:after
+  clear: both
+
+.flexbox
+  display: flex
+
+
+
+
+
+header
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3)
+  #header-inner
+    padding: 1em 0
+    #logo
+      max-width: 130px
+      img
+        width: 100%
+    #login-signup-group
+      margin-top: 9px
+      .session-link
+        padding: 0.5em 2em
+        span
+          color: rgba(255, 255, 255, 0.8)
+          font-size: 0.9em
+        a
+          color: #ffffff
+          margin-left: 1em
+        i.login-dropdown
+          margin-left: 1em
+          color: #ffffff
+      #login
+        position: relative
+        #login-button-wrapper
+          background-color: #8ea1b3
+          border-radius: 20px 0 0 20px
+        #login-form-dropdown
+          display: none
+          background-color: #ffffff
+          position: absolute
+          top: 60px
+          right: 0
+          z-index: 10
+          min-width: 400px
+          padding: 2em
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3) 
+          h3
+            color: rgba(73, 84, 97, 0.9)
+            margin-bottom: 2em
+          form
+            .form-group
+              margin-top: 1em
+              span
+                display: inline-block
+                margin-bottom: 0.5em
+                color: rgba(73, 84, 97, 0.8)
+              input[type="text"], input[type="password"]
+                width: 100%
+                padding: 0.5em 1em
+                background-color: #dbdddf
+                border: 1px solid darken(#dbdddf, 5%)
+                border-radius: 2px
+                &:focus
+                  box-shadow: 0 0 2px #50aad4
+              select
+                width: 100%
+                padding: 0.5em 1em
+                background-color: #8ea1b3
+                color: #ffffff
+              #remember-password
+                font-size: 0.9em
+                color: rgba(73, 84, 97, 0.8)
+                input[type="checkbox"]
+                  position: relative
+                  top: 2px
+              #forgot-password
+                font-size: 0.9em
+                a
+                  color: #4b5663
+            .form-action
+              margin-top: 1em
+              input[type="submit"]
+                width: 100%
+                padding: 0.7em 1em
+                background-color: #50aad4
+                border: 0
+                color: #ffffff
+                border-radius: 3px
+                cursor: pointer
+                &:hover
+                  background-color: darken(#50aad4, 7%)
+      #signup
+        background-color: #68717c
+        border-radius: 0 20px 20px 0
