@@ -56,19 +56,20 @@
                 resize: vertical; }
             .main-content #main-content-inner #modules .column .column-inner .module-content form .form-action {
               margin-top: 1em; }
-              .main-content #main-content-inner #modules .column .column-inner .module-content form .form-action button[type="submit"] {
-                padding: 0.7em 2em 0.6em 2em;
+              .main-content #main-content-inner #modules .column .column-inner .module-content form .form-action a {
                 background-color: #339ccd;
-                border: 0;
-                border-radius: 2px;
-                color: #ffffff; }
-                .main-content #main-content-inner #modules .column .column-inner .module-content form .form-action button[type="submit"] i {
+                color: #ffffff;
+                padding: 0.8em 2em;
+                border: 0; }
+                .main-content #main-content-inner #modules .column .column-inner .module-content form .form-action a i {
                   font-size: 1.3em;
                   transform: rotate(90deg); }
               .main-content #main-content-inner #modules .column .column-inner .module-content form .form-action span {
+                color: rgba(255, 255, 255, 0.5);
                 margin-left: 1em;
-                color: rgba(255, 255, 255, 0.6);
                 font-size: 0.8em; }
+            .main-content #main-content-inner #modules .column .column-inner .module-content form input[type="file"] {
+              display: none; }
           .main-content #main-content-inner #modules .column .column-inner .module-content #sort-and-menu span.exchange i {
             transform: rotate(90deg);
             color: #f6931b;

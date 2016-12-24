@@ -94,8 +94,12 @@
                     <textarea name="content" rows="7" placeholder="Your query"></textarea>
                   </div>
                   <div class="form-action">
-                    <button type="submit">JOIN &nbsp;&nbsp; <i class="fa fa-paperclip" aria-hidden="true"></i></button> <span>file name.extension</span>
+                    <a href="#" class="file-upload-button">
+                      JOIN &nbsp;&nbsp;<i class="fa fa-paperclip" aria-hidden="true"></i>
+                    </a>
+                    <span>filename.extension</span>
                   </div>
+                  <input type="file" value="" name="file" class="file-upload-button-hidden">
                 </form>
               </div>
             </div>
@@ -260,6 +264,7 @@
     <footer class="footer">footer</footer>
   </div>
   <script src="../js/jquery-2.2.0.js"></script>
-  <script src="../js/script.js"></script>
+  <script src="../js/script.js" type="text/javascript"></script>
+  <script src="../js/homepage.js" type="text/javascript"></script>
 </body>
 </html>
